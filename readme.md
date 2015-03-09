@@ -13,5 +13,5 @@ __main__.py [Input File Path] [(Optional) Output File path]
 (All those commands are run from the root of this repository)
 
 - Chmod the file through `chmod +x __main__.py`
-- (Ubuntu) `ln -s __main__.py /usr/bin/tei-numberer`
-- Now you can run `tei-number [your input file]`
+- (Ubuntu) `ln -s ./__main__.py /usr/bin/tei-numberer`
+- Now you can run `tei-numberer [your input file]`
